@@ -16,6 +16,8 @@ const AppURL = {
 
     productImagePath: "http://127.0.0.1:8000/uploads/products/",
 
+    sslCommerzPayment: "http://127.0.0.1:8000/api/pay-via-ajax/",
+
     getProductsById: (pid) => 
         `http://127.0.0.1:8000/api/getProductsById/${pid}`,
 };
